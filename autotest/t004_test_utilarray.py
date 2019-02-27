@@ -60,7 +60,7 @@ def test_load_txt_free():
         2 row 1 
         3 
         3 3 3 row 2
-        4*4 row 3
+        3*4 4 row 3
         5 5 5 5 row 4
     '''))
     fa = Util2d.load_txt(a.shape, fp, a.dtype, '(FREE)')
